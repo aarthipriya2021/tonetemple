@@ -35,3 +35,13 @@
   background: #e31c25;
   color: white;
 }
+
+.submit-btn{
+  border: 1px solid #e31c25;
+  /* border-radius: 0%; */
+  color: #e31c25;
+}
+.submit-btn:hover {
+  background-color: #e31c25;
+  color: white;
+}

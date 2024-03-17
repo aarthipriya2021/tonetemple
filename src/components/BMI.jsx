@@ -34,9 +34,8 @@ const BMI = () => {
               </h4>
               <h4>What is BMI?</h4>
               <p className="m-0 text-white">
-                Vero elitr lorem magna justo magna justo at justo est ipsum sed
-                clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor
-                clita clita rebum kasd magna erat diam
+                Achieve a healthier BMI with our personalized fitness programs
+                designed to help you reach your goals.
               </p>
             </div>
           </div>

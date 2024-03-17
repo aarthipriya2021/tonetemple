@@ -14,28 +14,48 @@ const About = () => {
             10 Years Experience
           </h2>
           <p className="text-sm-start text-center">
-            Labore vero lorem eos sed aliquy ipsum aliquy sed. Vero dolore
-            dolore takima ipsum lorem rebum
+            For ten years, we've been the cornerstone of fitness, providing
+            expert guidance, state-of-the-art facilities, and a supportive
+            community.
           </p>
           <div className="about row py-2 text-sm-start text-center">
             <div className="col-sm-6">
               <i className="flaticon-barbell display-2"></i>
               <h4>Certified GYM Center</h4>
-              <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+              <p>
+                Join a community dedicated to certified fitness standards,
+                ensuring your success and well-being.
+              </p>
             </div>
             <div className="col-sm-6">
               <i className="flaticon-barbell display-2"></i>
-              <h4>Certified GYM Center</h4>
-              <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+              <h4>Fitness Haven</h4>
+              <p>
+                Discover a sanctuary where fitness meets inspiration,
+                transforming bodies and lives.
+              </p>
+            </div>
+            <div className="col-sm-6">
+              <i className="flaticon-medal display-2"></i>
+              <h4>Fitness Pioneers</h4>
+              <p>
+                As fitness pioneers, we believe in pushing boundaries and
+                challenging limitations to help you achieve your best self.
+              </p>
             </div>
             <div className="col-sm-6">
               <i className="flaticon-medal display-2"></i>
               <h4>Award Winning</h4>
-              <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+              <p>
+                We're honored to be recognized as an award-winning gym center,
+                setting the standard for fitness excellence.
+              </p>
             </div>
           </div>
-          <div className='text-sm-start text-center'>
-          <Link to="/" className="btn btn-lg px-4">Learn More</Link>
+          <div className="text-sm-start text-center">
+            <Link to="/" className="btn btn-lg px-4">
+              Learn More
+            </Link>
           </div>
         </div>
       </div>

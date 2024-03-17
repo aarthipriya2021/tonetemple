@@ -1,5 +1,4 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes,  Switch, Route, BrowserRouter,  } from "react-router-dom";
 
 import "./responsive.css";
 
@@ -19,7 +18,7 @@ import "./components/Team.css";
 import "./components/Testimonial.css";
 
 
-import Navbar from "./routes/HomeNav";
+import Navbar from "./components/Navbar";
 import HomeNav  from "./routes/HomeNav";
 import AboutNav from "./routes/AboutNav";
 import FeaturesNav from "./routes/FeaturesNav";
@@ -28,17 +27,16 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" component={<HomeNav />}></Route>
-        <Route exact  path="/about" component={<AboutNav />}></Route>
-        <Route exact  path="/features" component={<FeaturesNav />}></Route>
-        <Route exact  path="/contact" component={<ContactNav />}></Route>
-        <Route />
-      </Routes>
-      <Footer />
-    </Router>
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<HomeNav />} />
+      <Route path="/about" element={<AboutNav />} />
+      <Route path="/features" element={<FeaturesNav />} />
+      <Route path="/contact" element={<ContactNav />} />
+    </Routes>
+    <Footer />
+    </BrowserRouter>
   );
 }
 

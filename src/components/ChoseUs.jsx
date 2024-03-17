@@ -23,8 +23,8 @@ const ChoseUs = () => {
             </div>
             <h3 className="mb-3">Modern Equipment</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut dolore facilisis.
+              Step into our gym and discover a world of modern equipment
+              designed to elevate your workout experience.
             </p>
           </div>
           <div
@@ -36,12 +36,11 @@ const ChoseUs = () => {
                 <i className="fa-sharp fa-solid fa-glass-citrus"></i>
               </h1>
             </div>
-            <h3 className="mb-3">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut dolore facilisis.
-              </p>
-            </h3>
+            <h3 className="mb-3">Healthy Nutrition Plan</h3>
+            <p>
+              With our healthy nutrition plan, you'll learn how to nourish your
+              body for optimal performance and health
+            </p>
           </div>
           <div
             id="train"
@@ -55,8 +54,9 @@ const ChoseUs = () => {
 
             <h3 className="mb-3">Profesional training</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut dolore facilisis.
+              Our professional training programs are designed to help you reach
+              your fitness goals efficiently and safely, with expert guidance
+              every step of the way.
             </p>
           </div>
           <div
@@ -70,8 +70,8 @@ const ChoseUs = () => {
             </div>
             <h3 className="mb-3">Unique to your needs</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut dolore facilisis.
+              Achieve your fitness goals with a plan that is unique to your body
+              type, fitness level, and personal preferences.
             </p>
           </div>
         </div>
