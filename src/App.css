@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Flaticon";
+  src: url("./lib/flaticon/font/Flaticon.eot");
+  src: url("./lib/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./lib/flaticon/font/Flaticon.woff2") format("woff2"),
+       url("./lib/flaticon/font/Flaticon.woff") format("woff"),
+       url("./lib/flaticon/font/Flaticon.ttf") format("truetype"),
+       url("./lib/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  overflow-x: hidden;
+
 }
 
-.App-link {
-  color: #61dafb;
+[class^="flaticon-"]:before {
+  font-family: Flaticon;
+  font-size: inherit;
+  margin-left: 0;
+  font-style: normal;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.flaticon-barbell:before {
+  content: "\f100";
+}
+
+.flaticon-treadmill:before {
+  content: "\f101";
+}
+
+.flaticon-six-pack:before {
+  content: "\f102";
+}
+
+.flaticon-bodybuilding:before {
+  content: "\f103";
+}
+
+.flaticon-medal:before {
+  content: "\f104";
+}
+
+.flaticon-muscular-bodybuilder-with-clock:before {
+  content: "\f105";
+}
+
+.flaticon-trends:before {
+  content: "\f106";
+}
+
+.flaticon-weightlifting:before {
+  content: "\f107";
+}
+
+.flaticon-training:before {
+  content: "\f108";
+}
+
+.flaticon-support:before {
+  content: "\f109";
+}
+
+.flaticon-stationary-bike:before {
+  content: "\f121";
 }
